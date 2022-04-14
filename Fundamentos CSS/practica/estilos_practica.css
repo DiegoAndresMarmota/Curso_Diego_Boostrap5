@@ -1,0 +1,16 @@
+/*
+Paleta de colores
+principal = #383E56
+secundario = #F69E7B
+terciario = #EEDAD1
+minuta = #D4B5B0
+*/
+.bg-cabeza{background-color: #383E56;}
+
+.text-primario{color: #EEDAD1 ;}
+
+.text-secundario{color: #D4B5B0;}
+
+.text-centrado{text-align: center;}
+
+.width_boton_200{width: 200px;}
