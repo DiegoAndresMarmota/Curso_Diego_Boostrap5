@@ -14,3 +14,9 @@
 
 .px100{padding: 50px 100px;} /* 50 para arriba y abajo, 100 para izquierda y derecha*/ 
 .px-linea{padding: 30px 60px 90px 120px;}
+
+.margint100{margin-top: 100px;}
+.marginb100{margin-bottom: 100px;}
+.marginl100{margin-left: 100px;}
+.marginr100{margin-right: 100px;}
+.margintotal{margin: 100px;}
