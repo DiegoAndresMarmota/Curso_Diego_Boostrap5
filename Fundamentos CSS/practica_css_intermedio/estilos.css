@@ -1,0 +1,118 @@
+/*.primario{color: #718355;}
+.secundario{color: #87986a;}
+.terciario{color: #97a97c;}
+.cuaternario{color: #b5c99a;}
+.bg1{background-color: #cfe1b9;}
+.bg2{background-color: #e9f5db;}
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{font-family: 'Montserrat', sans-serif;}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 800px;
+}
+
+.primario {
+    display: inline-block;
+    max-width: 800px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: match-parent;
+    padding: 0.5em;
+    color: white;
+    background-color: #718355;}
+
+.secundario {
+    display: inline-block;
+    max-width: 800px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: match-parent;
+    padding: 0.5em;
+    color: white;
+    background-color: #87986a;}
+
+.terciario {
+    display: inline-block;
+    max-width: 800px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    background-color: #97a97c;}
+
+.cuaternario {
+    display: inline-block;
+    max-width: 800px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: match-parent;
+    padding: 0.5em;
+    color: white;
+    background-color: #b5c99a;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+}
+.btn-success {
+    color: #e9f5db;
+    background-color: #718355;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    background-color: #1b4332;
+}
+
+.card {
+    width: 800px;
+    background-color: #40916c;
+    color: white;
+    overflow: visible;
+    border-radius: 0.5em;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.card-body h5 {
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 500;
+}
+
+.card-body p {
+    font-weight: 300;}
