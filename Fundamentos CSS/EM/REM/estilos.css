@@ -1,0 +1,6 @@
+html{font-size: 16px;}
+/*1 rem =16px
+em, se adjuntra al foint sixe que uno establece*/
+h1{background-color: blue;
+    padding: 1em;
+    font-size: 3rem;}
