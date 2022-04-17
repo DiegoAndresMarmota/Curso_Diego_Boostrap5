@@ -3,3 +3,14 @@
 .pt-50botton{padding-bottom: 50px;}
 .ptleft50{padding-left: 50px;}
 .ptright50{padding-right: 50px;}
+
+.ptotal{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;}
+
+.p{padding: 50px;}
+
+.px100{padding: 50px 100px;} /* 50 para arriba y abajo, 100 para izquierda y derecha*/ 
+.px-linea{padding: 30px 60px 90px 120px;}
