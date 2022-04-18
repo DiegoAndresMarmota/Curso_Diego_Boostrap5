@@ -16,7 +16,9 @@ html {
     box-sizing: inherit;
 }
 
+
 body{font-family: 'Montserrat', sans-serif;}
+
 
 .mt-2 {
     margin-top: 1rem;
@@ -28,6 +30,8 @@ body{font-family: 'Montserrat', sans-serif;}
     width: 95%;
     max-width: 800px;
 }
+
+.justify{justify-content: space-between;}
 
 .primario {
     display: inline-block;
