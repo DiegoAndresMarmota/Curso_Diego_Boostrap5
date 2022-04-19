@@ -65,6 +65,13 @@ body {
     text-transform: uppercase;
 }
 
+@media (min-width: 768px) {
+    .tienda {
+        display: flex;
+        gap: 1em;
+    }
+}
+
 .card {
     background-color: #A6464E;
     color: white;
@@ -110,6 +117,13 @@ body {
     align-items: center;
 }
 
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
 .navbar-brand {
     display: flex;
     flex-direction: column;
@@ -119,6 +133,13 @@ body {
     font-size: 2rem;
     margin-bottom: 1em;
     font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        flex-direction: row;
+        margin-bottom: 0;
+    }
 }
 
 .navbar-brand img {
@@ -167,6 +188,17 @@ body {
     order: 1;
 }
 
+@media (min-width: 576px) {
+    .nosotros-col-img {
+        height: 500px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nosotros {
+        flex-direction: row;
+    }
+
 .nosotros-body {
     padding: 1em;
     text-align: center;
@@ -190,5 +222,4 @@ body {
 .bg-footer p {
     padding: 1em;
     margin: 0;
-    text-align: center;
-}
+    text-align: center;}
