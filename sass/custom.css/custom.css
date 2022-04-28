@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;300;500&family=Raleway:ital,wght@0,200;0,300;0,500;1,400&display=swap");
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11955,5 +11956,10 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+p {
+  color: #ab296a;
+  background-color: #555;
 }
 /*# sourceMappingURL=custom.css.map */
