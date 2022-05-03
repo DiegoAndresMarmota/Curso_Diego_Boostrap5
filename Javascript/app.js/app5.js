@@ -18,4 +18,4 @@ console.log(numberAzar(100, 201))
 const azarFlecha = (min =1, max =100) => (Math.floor(Math.random() * (max - min)) + min);
 //const azarFlecha = max => (Math.floor(Math.random() * (max - 1)) + 1);     
 console.log(azarFlecha())
-//console.log(azarFlecha(10))
+//console.log(azarFlecha(null,10))
